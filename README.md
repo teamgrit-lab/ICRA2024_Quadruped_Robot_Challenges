@@ -19,7 +19,7 @@ Understanding the importance of preparation, we are currently working diligently
 To get started with the ICRA 2024 QRC:
 
 1. **Familiarize Yourself**: Review the rules and guidelines of the competition, available in the [Competition Rules](https://quadruped-robot-challenges.notion.site/ICRA-2024-Quadruped-Robot-Challenges-d208b535269d4a79b2893a84c1d4b2df) section.
-2. **Prepare Your Robot**: Ensure your quadruped robot meets all the technical requirements outlined in the [Robot Specifications](/specs) document.
+2. **Execute the Simulation Environment**: The simulation map is currently under preparation. Instructions on how to use it will be provided when it is uploaded.
 
 ## Contact Us
 
