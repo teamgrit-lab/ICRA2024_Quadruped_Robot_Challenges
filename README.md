@@ -12,7 +12,7 @@ The 2024 QRC competition arena will be used in a manner very similar to the one 
 
 ### Simulation Environment
 
-[Link to Simulation Map](../ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map/)
+[Link to Simulation Map](https://github.com/teamgrit-lab/ICRA2024_Quadruped_Robot_Challenges/tree/main/ICRA2024_QRC_Simulation_Map)
 
 ## Getting Started
 
