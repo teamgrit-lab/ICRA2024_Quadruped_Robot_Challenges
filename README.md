@@ -12,7 +12,7 @@ The 2024 QRC competition arena will be used in a manner very similar to the one 
 
 ### Simulation Environment
 
-Understanding the importance of preparation, we are currently working diligently to develop and release a simulation environment for the 2024 QRC. This simulated platform will closely mirror the actual competition arena and conditions, allowing teams to effectively test and refine their strategies and algorithms. We anticipate having the simulation environment available for download on this repository in the near future. Stay tuned for updates.
+[Link to Simulation Map](../ICRA2024_Quadruped_Robot_Challenges/ICRA2024_QRC_Simulation_Map/)
 
 ## Getting Started
 
