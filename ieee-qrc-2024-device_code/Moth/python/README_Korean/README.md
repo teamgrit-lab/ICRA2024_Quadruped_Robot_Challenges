@@ -22,6 +22,12 @@ MOTH 서버를 활용한 동작(Unitree Go2)
 
 ### client.py
 
+Moth 서버를 연동하기 위한 Dependency는 아래와 같다.
+
+```
+pip3 install websockets
+```
+
 client.py는 웹에서 보내는 조이스틱 컨트롤 값을 수신하고, Unitree Go2의 정면 비디오를 웹으로 송신하는 역할을 합니다.
 
 - 조이스틱 수신 값
