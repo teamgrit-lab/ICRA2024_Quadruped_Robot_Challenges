@@ -18,7 +18,7 @@ This project is Python-based software that utilizes Moth servers to control the 
 
 Each Class operates as a block diagram in the following illustration.
 
-![Block diagram](https://github.com/teamgrit-lab/ieee-qrc-2024-device_code/blob/main/Moth/python/Image/Block%20diagram.png)
+![Block diagram](https://github.com/teamgrit-lab/ICRA2024_Quadruped_Robot_Challenges/blob/main/ieee-qrc-2024-device_code/Moth/python/Image/Block%20diagram.png)
 
 ### client.py
 
