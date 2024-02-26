@@ -25,6 +25,8 @@ json globalData;
 
 std::chrono::system_clock::time_point start_time = std::chrono::system_clock::now();
 
+std::chrono::system_clock::time_point control_time = std::chrono::system_clock::now();
+
 Custom::Custom(client* c, websocketpp::connection_hdl hdl) : c(c), hdl(hdl)
 {
 	sport_client.SetTimeout(10.0f);
@@ -49,6 +51,14 @@ void Custom::MessageSend(client* c, websocketpp::connection_hdl hdl)
 {
 	std::chrono::system_clock::time_point now = std::chrono::system_clock::now();
 	std::chrono::duration<double, std::milli> now_time = now - start_time;
+	std::chrono::duration<double, std::milli> control_ = now - control_time;
+	if (control_.count()/100 > 0.3){
+		lx = 0.0;
+		ly = 0.0;
+		rx = 0.0;
+		ry = 0.0;
+		key = 0;
+	}
 	j["data"]["timestamp"] = now_time.count() / 1000;
 	j["type"] = "lab";
 	j["data"]["RPY"]["Roll"] = std::round(state.imu_state().rpy()[0]*180/3.1415926535 * 10)/10;
@@ -105,6 +115,7 @@ void on_fail(client* c, websocketpp::connection_hdl hdl){
 }
 
 void on_message(client* c, websocketpp::connection_hdl hdl, message_ptr msg) {
+	control_time = std::chrono::system_clock::now();
 	c->get_alog().write(websocketpp::log::alevel::app, "Received Reply: " + msg->get_payload());
 	try{
 		start = std::chrono::high_resolution_clock::now();
