@@ -4,7 +4,7 @@ Go to [Icra](https://2024.ieee-icra.org/)
 
 # Moth Development Guide
 
-If you want to use Moth Server, go to the [link](https://github.com/teamgrit-lab/ieee-qrc-2024-device_code/tree/main/Moth/python)
+If you want to use Moth Server, go to the [link](https://github.com/teamgrit-lab/ICRA2024_Quadruped_Robot_Challenges/tree/main/ieee-qrc-2024-device_code/Moth/python)
 
 # Quick Start
 
