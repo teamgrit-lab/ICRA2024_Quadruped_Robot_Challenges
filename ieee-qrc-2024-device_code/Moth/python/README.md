@@ -10,6 +10,12 @@ Operation with MOTH Server (Unitree Go2)
 4. [video_moth.py](#video_mothpy)
 5. [sensor_msg.py](#sensor_msgpy)
 
+## Dependency
+
+```
+pip3 install websockets
+```
+
 ## Introduction
 
 This project is Python-based software that utilizes Moth servers to control the behavior of Unitree Go2 and processes image and sensor data.
