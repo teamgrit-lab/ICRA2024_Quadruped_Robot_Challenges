@@ -18,7 +18,7 @@ MOTH 서버를 활용한 동작(Unitree Go2)
 
 각각의 Class는 아래와 같은 그림의 블록다이어그램으로 동작합니다.
 
-![Block diagram](https://github.com/teamgrit-lab/ieee-qrc-2024-device_code/blob/main/Moth/python/Image/Block%20diagram.png)
+![Block diagram](https://github.com/teamgrit-lab/ICRA2024_Quadruped_Robot_Challenges/blob/main/ieee-qrc-2024-device_code/Moth/python/Image/Block%20diagram.png)
 
 ### client.py
 
